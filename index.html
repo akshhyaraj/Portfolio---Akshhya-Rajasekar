@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Akshhya Rajasekar — Finance Portfolio</title>
+<title>Akshhya Rajasekar | Finance Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -119,6 +119,8 @@
     line-height: 1.65;
     max-width: 62ch;
     color: var(--intro-color);
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   hr.divider {
@@ -171,6 +173,21 @@
     font-style: italic;
   }
 
+  .case .team-line .tag {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    background: var(--paper-2);
+    border: 1px solid rgba(27,42,58,0.2);
+    color: var(--ink);
+    padding: 2px 8px;
+    border-radius: 2px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
   .metrics {
     display: flex;
     flex-wrap: wrap;
@@ -189,7 +206,7 @@
 
   .metric .val {
     font-family: var(--serif);
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--ink);
     display: block;
@@ -211,20 +228,11 @@
     line-height: 1.62;
     margin: 0 0 16px;
     color: var(--ink);
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .case p:last-of-type { margin-bottom: 0; }
-
-  .lead-note {
-    display: inline-block;
-    font-size: 0.82rem;
-    background: var(--paper-2);
-    border: 1px solid rgba(27,42,58,0.15);
-    padding: 6px 12px;
-    border-radius: 2px;
-    color: var(--ink-soft);
-    margin-bottom: 22px;
-  }
 
   table.data {
     width: 100%;
@@ -265,42 +273,21 @@
   <header class="masthead">
     <p class="kicker">Finance Portfolio</p>
     <h1 class="name">Akshhya Rajasekar</h1>
-    <p class="role-line">MBA in Finance, Santa Clara University — Corporate Finance &amp; FP&amp;A — San Francisco Bay Area</p>
+    <p class="role-line">MBA in Finance, Santa Clara University &middot; Corporate Finance &amp; FP&amp;A &middot; San Francisco Bay Area</p>
     <div class="links">
       <a href="https://www.linkedin.com/in/akshhyarajasekar" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:akshhyaraj@gmail.com">akshhyaraj@gmail.com</a>
     </div>
-    <p class="intro">I moved into corporate finance after two years working in corporate governance and regulatory compliance in India as a Qualified Company Secretary. The projects below are analytical work I built during my MBA — each a group project where I contributed directly to the financial or valuation analysis. I've noted my specific role on each so it's clear what was mine and what was the team's.</p>
+    <p class="intro">I moved into corporate finance after two years working in corporate governance and regulatory compliance in India as a Qualified Company Secretary. The projects below are analytical work I built during my MBA. Most are group projects where I contributed directly to the financial or valuation analysis, and a few are individual case assignments. I've marked each one clearly so it's obvious what was mine alone and what was the team's.</p>
   </header>
-
-  <hr class="divider">
-
-  <!-- CASE 0: WEWORK -->
-  <section class="case">
-    <p class="file-ref">CASE FILE — GOVERNANCE &amp; FINANCIAL RESTRUCTURING</p>
-    <h2>WeWork</h2>
-    <p class="team-line">Group project, 3 members — I led the financial and governance analysis behind the recommendations</p>
-
-    <div class="metrics">
-      <div class="metric"><span class="val">$47.2B</span><span class="lbl">Future lease obligations</span></div>
-      <div class="metric"><span class="val">$219K/hr</span><span class="lbl">Cash burn rate</span></div>
-      <div class="metric"><span class="val">2–3 mo</span><span class="lbl">Cash runway at collapse</span></div>
-    </div>
-
-    <p>This case asked us to diagnose why WeWork nearly collapsed in 2019 and recommend what its new leadership should do about it. The interesting part, given my background in corporate governance, was that the financial distress and the governance failure were the same problem viewed from two angles — a board with no real oversight over leases, capital allocation, and related-party deals (the founder's family controlled a real estate fund with zero board review) let expansion outrun cash generation until the company was burning $700M a quarter with two to three months of runway left.</p>
-
-    <p>We built the financial case for what came next: separating the chairman and CEO roles, reversing the founder's succession clause, and — on the numbers side — a set of concrete stabilization moves, including raising administrative fees from 8% to 10% and cutting non-essential spend, projected to add roughly $66M in annual revenue against $900M in first-half-2019 losses. We also built a formal expansion approval framework requiring board sign-off on market screening, financial analysis, and risk assessment before any future lease commitment, directly addressing the governance gap that let the crisis happen in the first place.</p>
-
-    <p>What made this project useful to me specifically was seeing how cleanly a governance failure translates into a financial one — a lesson that applies well beyond WeWork.</p>
-  </section>
 
   <hr class="divider">
 
   <!-- CASE 1: BURTON SENSORS -->
   <section class="case">
-    <p class="file-ref">CASE FILE — CAPITAL INVESTMENT, FINANCING &amp; M&amp;A</p>
+    <p class="file-ref">CASE FILE: CAPITAL INVESTMENT, FINANCING &amp; M&amp;A</p>
     <h2>Burton Sensors, Inc.</h2>
-    <p class="team-line">Group project, 4 members — two-part case; I led the DCF, NPV/IRR, and M&amp;A valuation work and the financing recommendations</p>
+    <p class="team-line"><span class="tag">GROUP PROJECT</span>4 members, two-part case. I led the DCF, NPV/IRR, and M&amp;A valuation work and the financing recommendations.</p>
 
     <div class="metrics">
       <div class="metric"><span class="val">$790,925</span><span class="lbl">NPV, thermowell project</span></div>
@@ -309,11 +296,11 @@
       <div class="metric"><span class="val">3.9 yrs</span><span class="lbl">Payback</span></div>
     </div>
 
-    <p>Burton Sensors was profitable but structurally cash-constrained: rapid sales growth of 19–24% had outpaced internal cash generation, and both of the company's bank covenants were already breached at the end of 2016. The case asked us to recommend a path forward on three fronts at once — the growth strategy, the financing structure, and a proposed capital investment in new thermowell manufacturing equipment.</p>
+    <p>Burton Sensors was profitable but structurally cash-constrained: rapid sales growth of 19–24% had outpaced internal cash generation, and both of the company's bank covenants were already breached at the end of 2016. The case asked us to recommend a path forward on three fronts at once: the growth strategy, the financing structure, and a proposed capital investment in new thermowell manufacturing equipment.</p>
 
     <p>I built the discounted cash flow model for the thermowell project: a WACC of 8.21% (built from a 6% market risk premium, 3% risk-free rate, and a relevered equity beta of 1.56 from sensor-industry comparables), producing an NPV of $790,925 and an IRR of 22.3% against a $1.25M initial outlay. On paper, the project was clearly value-creating.</p>
 
-    <p>The harder call was financing. Both covenants were breached, the bank was tightening rather than extending credit, and the OTC market was too thin for a public raise — leaving a private equity placement as the only real option. I worked through the numbers on the placement's dilution (a 33% increase in share count, EPS declining from $0.38 to $0.29) against the alternative of continuing to breach covenants. My recommendation was to raise the equity immediately to cure the covenants, and defer the thermowell project — despite its strong returns — until 2018–2019, once operating cash flow turned meaningfully positive and the capital outlay could be funded without trading off the company's covenant position.</p>
+    <p>The harder call was financing. Both covenants were breached, the bank was tightening rather than extending credit, and the OTC market was too thin for a public raise, leaving a private equity placement as the only real option. I worked through the numbers on the placement's dilution (a 33% increase in share count, EPS declining from $0.38 to $0.29) against the alternative of continuing to breach covenants. My recommendation was to raise the equity immediately to cure the covenants, and defer the thermowell project, despite its strong returns, until 2018–2019, once operating cash flow turned meaningfully positive and the capital outlay could be funded without trading off the company's covenant position.</p>
 
     <table class="data">
       <thead><tr><th>Covenant</th><th class="num">End-2016</th><th class="num">Bank Limit</th><th class="num">Resolved By</th></tr></thead>
@@ -323,37 +310,39 @@
       </tbody>
     </table>
 
-    <p class="file-ref" style="margin-top:32px;">PART II — ELECTRO-ENGINEERING ACQUISITION</p>
-    <p>The follow-on case asked us to evaluate an alternative to the equity placement: acquiring Electro-Engineering (EE), a fiber-optic sensor manufacturer, in a stock-for-stock deal. I built the DCF valuation of EE — post-synergy pro forma financials through 2021E, an 8.11% WACC, and comparables from Opsens and CyberOptics — arriving at an equity value of $8,328K ($7.57/share) against the owner's $6,866K asking price, a 17.6% discount to intrinsic value.</p>
-    <p>I recommended proceeding with the acquisition immediately: because the deal is stock-funded, it requires no cash and resolves both covenants on closing (liabilities/equity falls from 4.43x to 1.06x), while the thermowell project — still value-creating, but requiring $1.25M of cash Burton didn't have — stays deferred to 2019, once the combined company's cash position could fund it without covenant risk. Sequencing mattered more than either decision in isolation.</p>
+    <p class="file-ref" style="margin-top:32px;">PART II: ELECTRO-ENGINEERING ACQUISITION</p>
+    <p>The follow-on case asked us to evaluate an alternative to the equity placement: acquiring Electro-Engineering (EE), a fiber-optic sensor manufacturer, in a stock-for-stock deal. I built the DCF valuation of EE using post-synergy pro forma financials through 2021E, an 8.11% WACC, and comparables from Opsens and CyberOptics, arriving at an equity value of $8,328K ($7.57/share) against the owner's $6,866K asking price, a 17.6% discount to intrinsic value.</p>
+    <p>I recommended proceeding with the acquisition immediately: because the deal is stock-funded, it requires no cash and resolves both covenants on closing (liabilities/equity falls from 4.43x to 1.06x), while the thermowell project, still value-creating but requiring $1.25M of cash Burton didn't have, stays deferred to 2019, once the combined company's cash position could fund it without covenant risk. Sequencing mattered more than either decision in isolation.</p>
   </section>
 
   <hr class="divider">
 
-  <!-- CASE: UNITED AIRLINES -->
+  <!-- CASE 7: AUDITPULSE -->
   <section class="case">
-    <p class="file-ref">CASE FILE — MANAGERIAL ECONOMICS &amp; ROUTE ANALYSIS</p>
-    <h2>United Airlines — SFO–Bangalore Route</h2>
-    <p class="team-line">Group project, 3 members — I led the demand modeling and cost/marginal-analysis work; the regression analysis was led by a teammate</p>
+    <p class="file-ref">CASE FILE: VENTURE FINANCIAL MODEL</p>
+    <h2>AuditPulse</h2>
+    <p class="team-line"><span class="tag">GROUP PROJECT</span>5 members ("Team Manatee"). I served as CFO &amp; Strategy Lead, building the financial model and fundraising materials.</p>
 
     <div class="metrics">
-      <div class="metric"><span class="val">6,000</span><span class="lbl">Monthly market passengers</span></div>
-      <div class="metric"><span class="val">18</span><span class="lbl">Recommended monthly flights</span></div>
-      <div class="metric"><span class="val">$675.3K</span><span class="lbl">Marginal cost / round trip</span></div>
+      <div class="metric"><span class="val">900K</span><span class="lbl">US SMBs in TAM</span></div>
+      <div class="metric"><span class="val">15,600</span><span class="lbl">Bay Area SAM</span></div>
+      <div class="metric"><span class="val">$12.8M</span><span class="lbl">Year 5 revenue (modeled)</span></div>
     </div>
 
-    <p>Acting as planning analysts for United Airlines, our team evaluated whether the airline should launch a direct SFO–Bangalore route — one United had previously announced and then cancelled in 2023. The case required building an actual economic model rather than a qualitative recommendation: a demand function, a cost structure, and a marginal analysis to test where the route made sense.</p>
+    <p>AuditPulse was a hypothetical AI-powered compliance and audit-readiness platform for small and mid-sized businesses, the kind of company that would otherwise pay for manual compliance monitoring (multi-state nexus, 1099 reporting, related-party detection, GAAP checks) as it scaled toward an audit or a funding round.</p>
 
-    <p>We ran a regression to test whether ticket price significantly affected demand on this route, using Python's <code>linregress</code> to cross-check the results — the p-values came back statistically insignificant, indicating inelastic demand, consistent with a market split between time-sensitive business travelers and visiting-friends-and-relatives travelers with limited scheduling flexibility. From there, we sized the addressable market (6,000 passengers/month, with Air India already serving 2,400), built a total cost function (roughly $2.42M fixed plus $675.3K variable per round trip), and compared marginal revenue against marginal cost across flight frequencies to identify the profit-maximizing schedule — arriving at a recommendation of 18 monthly round trips for United, filling the demand Air India's existing service didn't cover.</p>
+    <p>My role was building the full financial model behind the venture: a five-year projection with tiered SaaS pricing ($51–$206/month depending on tier), unit economics that improved from a negative LTV in Year 2 (customer acquisition cost of $492 against early churn) to a $150 LTV by Year 5 as CAC fell to $216, and a bottom-up TAM/SAM/SOM build starting from 900,000 U.S. small businesses that need audit-grade financials, narrowing to a 15,600-company Bay Area entry market. I used that model to build the company's Series Seed fundraising case, translating a five-phase product roadmap (from a manual prototype to a full multi-entity, auditor-collaboration platform) into the milestones an investor would actually want to see funded.</p>
+
+    <p>This project was less about a single number and more about connecting a product roadmap to a financing plan, showing which capabilities needed to exist before the next round of funding made sense, not just what the business might eventually look like at scale.</p>
   </section>
 
   <hr class="divider">
 
-  <!-- CASE 2: TESLA -->
+  <!-- CASE 5: TESLA -->
   <section class="case">
-    <p class="file-ref">CASE FILE — EQUITY VALUATION</p>
+    <p class="file-ref">CASE FILE: EQUITY VALUATION</p>
     <h2>Tesla, Inc.</h2>
-    <p class="team-line">Group project, 4 members ("Team Tesla") — I led the recommendation and valuation methodology</p>
+    <p class="team-line"><span class="tag">GROUP PROJECT</span>4 members ("Team Tesla"). I led the recommendation and valuation methodology.</p>
 
     <div class="metrics">
       <div class="metric"><span class="val">$429.24</span><span class="lbl">Market price, Dec 2 2025</span></div>
@@ -361,11 +350,11 @@
       <div class="metric"><span class="val flag">SELL</span><span class="lbl">Rating</span></div>
     </div>
 
-    <p>Our team was asked to issue a rated recommendation on Tesla as of December 2025. I led the recommendation slide and the valuation methodology behind it — deciding how to weight and reconcile the different valuation approaches into a single, defensible view.</p>
+    <p>Our team was asked to issue a rated recommendation on Tesla as of December 2025. I led the recommendation slide and the valuation methodology behind it, deciding how to weight and reconcile the different valuation approaches into a single, defensible view.</p>
 
-    <p>We built a blended valuation combining a relative valuation ($308.86/share, based on EV/Revenue comparables weighted toward Tesla's autonomy and compute segments — Nvidia and Alphabet at a 60% weight each, versus 15–25% for GM, Ford, and Enphase) with a discounted cash flow model ($175.79/share). We excluded a separate free cash flow to equity approach ($40.15) as unreliable at Tesla's growth stage. The blended result put fair value meaningfully below the market's $429.24, which is where the SELL rating and our $288.90–$302.21 target came from.</p>
+    <p>We built a blended valuation combining a relative valuation ($308.86/share, based on EV/Revenue comparables weighted toward Tesla's autonomy and compute segments, Nvidia and Alphabet at a 60% weight each, versus 15–25% for GM, Ford, and Enphase) with a discounted cash flow model ($175.79/share). We excluded a separate free cash flow to equity approach ($40.15) as unreliable at Tesla's growth stage. The blended result put fair value meaningfully below the market's $429.24, which is where the SELL rating and our $288.90–$302.21 target came from.</p>
 
-    <p>The most useful part of this project wasn't the model itself — it was defending a conclusion the market clearly disagreed with. That meant being explicit about where the gap came from: the market was pricing in autonomy and robotaxi optionality more aggressively than our comparables supported, and we said so directly rather than softening the call to split the difference.</p>
+    <p>The most useful part of this project wasn't the model itself. It was defending a conclusion the market clearly disagreed with. That meant being explicit about where the gap came from: the market was pricing in autonomy and robotaxi optionality more aggressively than our comparables supported, and we said so directly rather than softening the call to split the difference.</p>
 
     <table class="data">
       <thead><tr><th>Comparable</th><th>Segment</th><th class="num">EV / Revenue</th><th class="num">Weight</th></tr></thead>
@@ -379,30 +368,99 @@
     </table>
   </section>
 
-  <!-- CASE 3: AUDITPULSE -->
+  <hr class="divider">
+
+  <!-- CASE 3: AUTODISTRIBUTION (NEW, INDIVIDUAL) -->
   <section class="case">
-    <p class="file-ref">CASE FILE — VENTURE FINANCIAL MODEL</p>
-    <h2>AuditPulse</h2>
-    <p class="team-line">Group project, 5 members ("Team Manatee") — I served as CFO &amp; Strategy Lead, building the financial model and fundraising materials</p>
+    <p class="file-ref">CASE FILE: LEVERAGED BUYOUT &amp; CAPITAL STRUCTURE</p>
+    <h2>Autodistribution: Butler Capital LBO</h2>
+    <p class="team-line"><span class="tag">INDIVIDUAL ASSIGNMENT</span>Final case study. Full leveraged buyout valuation and capital structure design.</p>
 
     <div class="metrics">
-      <div class="metric"><span class="val">900K</span><span class="lbl">US SMBs in TAM</span></div>
-      <div class="metric"><span class="val">15,600</span><span class="lbl">Bay Area SAM</span></div>
-      <div class="metric"><span class="val">$12.8M</span><span class="lbl">Year 5 revenue (modeled)</span></div>
+      <div class="metric"><span class="val">17.7%</span><span class="lbl">Base equity IRR</span></div>
+      <div class="metric"><span class="val">40.2%</span><span class="lbl">Restructured to hit Butler's target</span></div>
+      <div class="metric"><span class="val">FF 2.0–3.9B</span><span class="lbl">Enterprise value range (comps)</span></div>
     </div>
 
-    <p>AuditPulse was a hypothetical AI-powered compliance and audit-readiness platform for small and mid-sized businesses — the kind of company that would otherwise pay for manual compliance monitoring (multi-state nexus, 1099 reporting, related-party detection, GAAP checks) as it scaled toward an audit or a funding round.</p>
+    <p>This case asked me to value Autodistribution, a French auto parts distributor, from multiple angles ahead of Butler Capital's 1998 leveraged buyout, then work through whether the deal's financing actually delivered the returns each capital provider needed. I built a comparable-companies multiples valuation, a discounted cash flow model, and both a WACC-based and an APV-based valuation using Butler's own projections, then calculated the IRR each layer of the capital structure would earn: senior debt tranches A and B, subordinated debt, and Butler's equity.</p>
 
-    <p>My role was building the full financial model behind the venture: a five-year projection with tiered SaaS pricing ($51–$206/month depending on tier), unit economics that improved from a negative LTV in Year 2 (customer acquisition cost of $492 against early churn) to a $150 LTV by Year 5 as CAC fell to $216, and a bottom-up TAM/SAM/SOM build starting from 900,000 U.S. small businesses that need audit-grade financials, narrowing to a 15,600-company Bay Area entry market. I used that model to build the company's Series Seed fundraising case, translating a five-phase product roadmap (from a manual prototype to a full multi-entity, auditor-collaboration platform) into the milestones an investor would actually want to see funded.</p>
+    <p>The base case came up short. Butler's equity IRR worked out to 17.7%, well below the roughly 30% return its fund needed to justify the deal. So I restructured the capital stack twice: once using PIK bonds (interest accrues and is paid at maturity, preserving equity ownership but increasing debt at exit) and once using warrants (diluting equity to satisfy lenders without adding debt), first to meet senior lenders' higher rate demands without changing their cash coupons, then to solve for a 40% target return for Butler specifically. Both approaches worked, but each came with a real tradeoff: PIK preserved ownership at the cost of a bigger debt load, while warrants capped debt growth by diluting the equity holders, and pushing hard enough to hit Butler's 40% target squeezed subordinated debt's return in both structures.</p>
 
-    <p>This project was less about a single number and more about connecting a product roadmap to a financing plan — showing which capabilities needed to exist before the next round of funding made sense, not just what the business might eventually look like at scale.</p>
+    <table class="data">
+      <thead><tr><th>Capital layer</th><th class="num">Base IRR</th><th class="num">Restructured (Warrants, 40% target)</th></tr></thead>
+      <tbody>
+        <tr><td>Senior Debt (Tranche A)</td><td class="num">4.6%</td><td class="num">7.5%</td></tr>
+        <tr><td>Senior Debt (Tranche B)</td><td class="num">5.1%</td><td class="num">10.0%</td></tr>
+        <tr><td>Subordinated Debt</td><td class="num">14.7%</td><td class="num">12.0%</td></tr>
+        <tr><td>Equity (Butler Capital)</td><td class="num">17.7%</td><td class="num">40.9%</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr class="divider">
+
+  <!-- CASE 4: LOCKHEED MARTIN (NEW, INDIVIDUAL) -->
+  <section class="case">
+    <p class="file-ref">CASE FILE: CORPORATE DIVESTITURE &amp; TAX STRUCTURING</p>
+    <h2>Lockheed Martin: IS&amp;GS Divestiture</h2>
+    <p class="team-line"><span class="tag">INDIVIDUAL ASSIGNMENT</span>Evaluated divestiture structures and valued the Reverse Morris Trust transaction with Leidos.</p>
+
+    <div class="metrics">
+      <div class="metric"><span class="val">$4,476.9M</span><span class="lbl">Standalone spinoff equity value</span></div>
+      <div class="metric"><span class="val">$5,527.6M</span><span class="lbl">Value to Lockheed via RMT</span></div>
+      <div class="metric"><span class="val flag">+23%</span><span class="lbl">Additional value from RMT</span></div>
+    </div>
+
+    <p>Lockheed Martin wanted to exit its Information Systems &amp; Global Solutions (IS&amp;GS) division to focus on core aerospace and defense operations, but a straight sale would have triggered a large tax bill given the division's low cost basis. This case asked me to work through the alternatives: a divestiture, a straight spinoff, a split-off exchange offer, and a Reverse Morris Trust (RMT), which spins the division into a shell company that then merges with a smaller company, Leidos, in this case, while keeping Lockheed's shareholders owning more than half of the combined entity, the threshold the IRS requires for the whole transaction to be tax-free.</p>
+
+    <p>I modeled both realistic options head to head: spinning IS&amp;GS off as a standalone company versus merging it into Leidos via the RMT structure. The standalone spinoff came out to an equity value of $4,476.9M ($58.17/share). The RMT structure, where Lockheed's shareholders would own 50.5% of the combined IS&amp;GS-Leidos entity, delivered $5,527.6M in value to Lockheed's shareholders, about 23% more, on top of remaining entirely tax-free under IRS rules. That gap is what made the RMT the clearly better recommendation, not just the tax treatment on its own.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- CASE 6: UNITED AIRLINES -->
+  <section class="case">
+    <p class="file-ref">CASE FILE: MANAGERIAL ECONOMICS &amp; ROUTE ANALYSIS</p>
+    <h2>United Airlines: SFO-Bangalore Route</h2>
+    <p class="team-line"><span class="tag">GROUP PROJECT</span>3 members. I led the demand modeling and cost/marginal-analysis work, and a teammate led the regression analysis.</p>
+
+    <div class="metrics">
+      <div class="metric"><span class="val">6,000</span><span class="lbl">Monthly market passengers</span></div>
+      <div class="metric"><span class="val">18</span><span class="lbl">Recommended monthly flights</span></div>
+      <div class="metric"><span class="val">$675.3K</span><span class="lbl">Marginal cost / round trip</span></div>
+    </div>
+
+    <p>Acting as planning analysts for United Airlines, our team evaluated whether the airline should launch a direct SFO-Bangalore route, one United had previously announced and then cancelled in 2023. The case required building an actual economic model rather than a qualitative recommendation: a demand function, a cost structure, and a marginal analysis to test where the route made sense.</p>
+
+    <p>We ran a regression to test whether ticket price significantly affected demand on this route, using Python's <code>linregress</code> to cross-check the results. The p-values came back statistically insignificant, indicating inelastic demand, consistent with a market split between time-sensitive business travelers and visiting-friends-and-relatives travelers with limited scheduling flexibility. From there, we sized the addressable market (6,000 passengers/month, with Air India already serving 2,400), built a total cost function (roughly $2.42M fixed plus $675.3K variable per round trip), and compared marginal revenue against marginal cost across flight frequencies to identify the profit-maximizing schedule, arriving at a recommendation of 18 monthly round trips for United, filling the demand Air India's existing service didn't cover.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- CASE 2: WEWORK -->
+  <section class="case">
+    <p class="file-ref">CASE FILE: GOVERNANCE &amp; FINANCIAL RESTRUCTURING</p>
+    <h2>WeWork</h2>
+    <p class="team-line"><span class="tag">GROUP PROJECT</span>3 members. I chose WeWork as our case subject and led the financial and governance analysis behind the recommendations.</p>
+
+    <div class="metrics">
+      <div class="metric"><span class="val">$47.2B</span><span class="lbl">Future lease obligations</span></div>
+      <div class="metric"><span class="val">$219K/hr</span><span class="lbl">Cash burn rate</span></div>
+      <div class="metric"><span class="val">2–3 mo</span><span class="lbl">Cash runway at collapse</span></div>
+    </div>
+
+    <p>I picked WeWork for this case specifically because of my background in corporate governance. The assignment asked us to diagnose why the company nearly collapsed in 2019 and recommend what its new leadership should do about it, and the financial distress and the governance failure turned out to be the same problem viewed from two angles: a board with no real oversight over leases, capital allocation, and related-party deals (the founder's family controlled a real estate fund with zero board review) let expansion outrun cash generation until the company was burning $700M a quarter with two to three months of runway left.</p>
+
+    <p>The core of our recommendation was governance, not a specific dollar figure: separating the chairman and CEO roles, reversing the founder's succession clause, and building a formal expansion approval framework that required board sign-off on market screening, financial analysis, and risk assessment before any future lease commitment. That framework was the direct fix for the gap that let the crisis happen in the first place. We also modeled a set of stabilization moves on the numbers side, like adjusting administrative fees and cutting non-essential spend, and estimated they could add roughly $66M in annual revenue, though that figure was a supporting data point rather than the focus of the recommendation.</p>
+
+    <p>What made this project useful to me specifically was seeing how cleanly a governance failure translates into a financial one, a lesson that applies well beyond WeWork.</p>
   </section>
 
   <hr class="divider">
 
   <footer>
-    <p>Authorized to work in the U.S. — no visa sponsorship required.</p>
-    <p><a href="https://www.linkedin.com/in/akshhyarajasekar" target="_blank" rel="noopener">linkedin.com/in/akshhyarajasekar</a> &nbsp;·&nbsp; <a href="mailto:akshhyaraj@gmail.com">akshhyaraj@gmail.com</a></p>
+    <p>Authorized to work in the U.S.; no visa sponsorship required.</p>
+    <p><a href="https://www.linkedin.com/in/akshhyarajasekar" target="_blank" rel="noopener">linkedin.com/in/akshhyarajasekar</a> &nbsp;&middot;&nbsp; <a href="mailto:akshhyaraj@gmail.com">akshhyaraj@gmail.com</a></p>
   </footer>
 
 </div>
